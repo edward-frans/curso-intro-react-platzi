@@ -1,0 +1,11 @@
+.TodoList {
+  width: 400px;
+  display: flex;
+  margin: 30px auto;
+}
+
+.TodoList ul {
+  width: 500px;
+  padding-left: 0px;
+  margin: 0;
+}

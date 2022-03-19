@@ -1,0 +1,50 @@
+.TodoItem {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #282c34;
+  margin-bottom: 6px;
+  border-radius: 3px;
+}
+
+.Check {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  margin: auto;
+  font-weight: bold;
+
+}
+
+.Check:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.Check-active {
+  color: green;
+  
+}
+
+.TodoItem-p {
+  width: 80%;
+  color: #ffffff;
+}
+
+.TodoItem-p-active {
+  opacity: 30%;
+  text-decoration: line-through;
+}
+
+.Delete {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 10%;
+  font-weight: bold;
+}
+
+.Delete:hover {
+  color: red;
+  cursor: pointer;
+}
